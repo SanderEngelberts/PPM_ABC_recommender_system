@@ -61,13 +61,11 @@ with col2:
 st.sidebar.header('Recommendation settings')
 content_diversity = st.sidebar.selectbox(
      'How content diverse do you want your recommendations to be?',
-     ('High', 'Medium', 'Low'), index=1, help='help') 
-# TODO: add useful help information where a definition is given for this type of diversity
+     ('High', 'Medium', 'Low'), index=1, help='Selecting a higher content diversity means that you will receive more recommendations that are different from the currently selected show in content and viewpoints')  
 
 representation_diversity = st.sidebar.selectbox(
      'How diverse in representation of minority and oppressed groups do you want your recommendations to be?',
-     ('High', 'Medium', 'Low'), index=1, help='help')
-# TODO: add useful help information where a definition is given for this type of diversity
+     ('High', 'Medium', 'Low'), index=1, help='Selecting a higher representation diversity means that you will receive more recommendations that portray people from minority/ oppressed groups')
 
 # Be transparant about what the recommendations are based on: the currently selected show, and the content- and representation
 # diversity settings
