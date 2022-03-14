@@ -2,8 +2,7 @@
 Research project for the MSc Applied Data Science course Personalisation for (public) media at Utrecht University.
 Performed by Sander Engelberts in March 2022
 
-A prototype recommender system for ABC iview shows is created which takes into account the public values: personalization, content- and representation diversity, autonomy, and transperancy. This is based on content similarity of short show descriptions and genre label(s), which are scraped from the [ABC iview website](https://iview.abc.net.au/) by the teachers of this course,
-analysed by me, and converted into a streamlit interface for visual inspection of show recommendations. 
+A prototype recommender system for ABC iview shows is created which takes into account the public values: personalization, content- and representation diversity, autonomy, and justification. This is based on content similarity of short show descriptions and genre label(s), which are scraped from the [ABC iview website](https://iview.abc.net.au/) by the teachers of this course, analysed by me, and converted into a streamlit interface for visual inspection of show recommendations. 
 
 For questions or remarks, please contact [s.engelberts@students.uu.nl](mailto:s.engelberts@students.uu.nl)<br>
 
